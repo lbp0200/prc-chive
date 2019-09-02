@@ -1,0 +1,17 @@
+{
+  "name": "PRC Chive",
+  "version": "1.0",
+  "description": "Romance of the Western Chamber",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "manifest_version": 2
+}
